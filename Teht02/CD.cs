@@ -8,8 +8,8 @@ namespace Teht02
 {
     class CD
     {
-        public string Name = "Flower Flag";
-        public string Artist = "FELT";
+        public string Name { get; set; }
+        public string Artist { get; set; }
 
         private List<Biisi> cd;
 
@@ -30,13 +30,6 @@ namespace Teht02
             {
                 Console.WriteLine(biisi.ToString());
             }
-        }
-
-        public Biisi GetBiisi(int index)
-        {
-            if (index < cd.Count)
-                return cd.ElementAt(index);
-            else return null;
         }
     }
 }

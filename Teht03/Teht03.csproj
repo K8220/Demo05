@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BFDD722B-90E4-4273-81FA-35813274F451}</ProjectGuid>
+    <ProjectGuid>{F1DC7968-B4FF-4260-BCEA-5121E62F29C7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Teht03</RootNamespace>
